@@ -13,3 +13,11 @@
 #
 # Please type in a number: -99
 # The absolute value of this number is 99
+
+message = "The absolute value of this number is"
+
+number = input("Please type in a number: ")
+if number.startswith("-"):
+    print(message,number[1:len(number)])
+else:
+    print(message,number)

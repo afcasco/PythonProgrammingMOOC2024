@@ -7,3 +7,8 @@
 #
 # Please type in a number: 1984
 # Orwell
+
+year = input("Please type in a number: ")
+
+if year == "1984":
+    print("Orwell")

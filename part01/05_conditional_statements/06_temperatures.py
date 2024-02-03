@@ -14,3 +14,17 @@
 # Please type in a temperature (F): 21
 # 21 degrees Fahrenheit equals -6.111111111111111 degrees Celsius
 # Brr! It's cold in here!
+
+temp_fahrenheit = int(input("Please type in a temperature (F): "))
+
+
+def convert_f_to_c(f):
+    return (f - 32) * (5 / 9)
+
+
+temp_celsius = convert_f_to_c(temp_fahrenheit)
+
+print(f"{temp_fahrenheit} degrees Fahrenheit equals {temp_celsius} degrees Celsius")
+
+if temp_celsius < 0:
+    print("Brr! It's cold in here!")
