@@ -18,33 +18,33 @@ Course from: https://programming-24.mooc.fi/
 5. [Story](part01/02_information_from_the_user/05_story.py)
 
 ### More about variables
-1. [Quiz: Background information]()
-2. [Extra space]()
-3. [Arithmetics]()
-4. [Fix the code: Print a single line]()
+1. It was a quizz
+2. [Extra space](part01/03_more_about_variables/02_extra_space.py)
+3. [Arithmetics](part01/03_more_about_variables/03_arithmetics.py)
+4. [Fix the code: Print a single line](part01/03_more_about_variables/04_print_a_single_line.py)
 
 ### Arithmetic operations
-1. [Times five]()
-2. [Name and age]()
-3. [Seconds in a day]()
-4. [Fix the code: Product]()
-5. [Sum and product]()
-6. [Sum and mean]()
-7. [Food expenditure]()
-8. [Students in groups]()
+1. [Times five](part01/04_arithmetic_operations/01_times_five.py)
+2. [Name and age](part01/04_arithmetic_operations/02_name_and_age.py)
+3. [Seconds in a day](part01/04_arithmetic_operations/03_seconds_in_a_day.py)
+4. [Fix the code: Product](part01/04_arithmetic_operations/04_product.py)
+5. [Sum and product](part01/04_arithmetic_operations/05_sum_and_product.py)
+6. [Sum and mean](part01/04_arithmetic_operations/06_sum_and_men.py)
+7. [Food expenditure](part01/04_arithmetic_operations/07_food_expediture.py)
+8. [Students in groups](part01/04_arithmetic_operations/08_students_in_groups.py)
 
 ### Conditional statements
-1. [Orwell]()
-2. [Absolute value]()
-3. [Soup or no soup]()
-4. [Order of magnitude]()
-5. [Calculator]()
-6. [Temperatures]()
-7. [Daily wages]()
-8. [Loyalty bonus]()
-9. [What to wear tomorrow]()
-10. [Solving a quadratic equation]()
-11. [Quiz: Feedback, part 1]()
+1. [Orwell](part01/05_conditional_statements/01_orwell.py)
+2. [Absolute value](part01/05_conditional_statements/02_absolute_value.py)
+3. [Soup or no soup](part01/05_conditional_statements/03_soup_or_no_soup.py)
+4. [Order of magnitude](part01/05_conditional_statements/04_order_of_magnitude.py)
+5. [Calculator](part01/05_conditional_statements/05_calculator.py)
+6. [Temperatures](part01/05_conditional_statements/06_temperatures.py)
+7. [Daily wages](part01/05_conditional_statements/07_daily_wages.py)
+8. [Loyalty bonus](part01/05_conditional_statements/08_loyalty_bonus.py)
+9. [What to wear tomorrow](part01/05_conditional_statements/09_what_to_wear_tomorrow.py)
+10. [Solving a quadratic equation](part01/05_conditional_statements/10_quadratic_formula.py)
+11. It was a quizz
 
 
 ## Part 2
