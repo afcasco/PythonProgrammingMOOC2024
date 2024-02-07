@@ -49,15 +49,15 @@ Course from: https://programming-24.mooc.fi/
 
 ## Part 2
 ### Programming terminology
-1. [Fix the syntax]()
-2. [Number of characters]()
-3. [Typecasting]()
+1. [Fix the syntax](part02/01_programming_terminology/01_fix_syntax.py)
+2. [Number of characters](part02/01_programming_terminology/02_number_of_characters.py)
+3. [Typecasting](part02/01_programming_terminology/03_typecasting.py)
 
 ### More conditionals
-1. [Age of maturity]()
-2. [Greater than or equal to]()
-3. [The elder]()
-4. [Alphabetically last]()
+1. [Age of maturity](part02/02_more_conditionals/01_age_of_maturity.py)
+2. [Greater than or equal to](part02/02_more_conditionals/02_greater_or_equal.py)
+3. [The elder](part02/02_more_conditionals/03_elder.py)
+4. [Alphabetically last](part02/02_more_conditionals/04_alphabetically_last.py)
 
 ### Combining conditions
 1. [Age check]()
