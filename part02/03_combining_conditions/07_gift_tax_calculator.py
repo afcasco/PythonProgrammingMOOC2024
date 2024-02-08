@@ -1,7 +1,10 @@
-# Some say paying taxes makes Finns happy, so let's see if the secret of happiness lies in one of the taxes set out in Finnish tax code.
+# Some say paying taxes makes Finns happy, so let's see if the secret of happiness lies in one of the taxes set out in
+# Finnish tax code.
 #
-# According to the Finnish Tax Administration, a gift is a transfer of property to another person against no compensation
-# or payment. If the total value of the gifts you receive from the same donor in the course of 3 years is €5,000 or more,
+# According to the Finnish Tax Administration, a gift is a transfer of property to another person against no
+# compensation
+# or payment. If the total value of the gifts you receive from the same donor in the course of 3 years is €5,000 or
+# more,
 # you must pay gift tax.
 #
 # When the gift is received from a close relative or a family member, the amount of tax to be paid is determined by the
@@ -33,12 +36,37 @@
 # Value of gift: 27500
 # Amount of tax: 1950.0 euros
 
-year = int(input("Please type in a year: "))
 
-if year % 4 == 0:
+value = int(input("Value of gift: "))
 
-    if year % 100 == 0:
-        if year % 400 == 0:
-            print("That year is a leap year.")
-        else:
-            print("That year is not a leap year.")
+if value < 25000:
+    low = 5000
+    base = 100
+    rate = 0.08
+elif value < 55000:
+    low = 25000
+    base = 1700
+    rate = 0.10
+elif value < 200000:
+    low = 55000
+    base = 4700
+    rate = 0.12
+elif value < 1000000:
+    low = 200000
+    base = 22100
+    rate = 0.15
+else:
+    low = 1000000
+    base = 142100
+    rate = 0.17
+
+if value < 5000:
+    result = 0
+else:
+    result = base + (value - low) * rate
+
+if result == 0:
+    print("No tax!")
+else:
+    print(f"Amount of tax: {result} euros")
+

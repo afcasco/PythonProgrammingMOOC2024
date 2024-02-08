@@ -18,6 +18,7 @@
 # Please type in a year: 1800
 # That year is not a leap year.
 
+
 year = int(input("Please type in a year: "))
 
 leap = False
