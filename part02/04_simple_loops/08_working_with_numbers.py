@@ -73,5 +73,5 @@ while True:
 print(f"Numbers typed in {len(numbers)}")
 print(f"The sum of the numbers is {sum(numbers)}")
 print(f"The mean of the numbers is {float(statistics.mean(numbers))}")
-print(f"Positive numbers {len([x for x in numbers if x >= 0])}")
+print(f"Positive numbers {len([x for x in numbers if x > 0])}")
 print(f"Negative numbers {len([x for x in numbers if x < 0])}")
